@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Học web chuẩn</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 30px;
+    }
+    .portfolio {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 30px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .portfolio h2 {
+        font-size: 24px;
+        color: #222;
+        margin-bottom: 5px;
+    }
+    /* Đường gạch chân màu xanh dưới tiêu đề */
+    .portfolio h2::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: #5bc0be;
+        margin: 8px auto 25px auto;
+    }
+    
+    /* Định dạng thanh menu ngang */
+    .list-tab {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .list-tab li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .list-tab li a {
+        text-decoration: none;
+        color: #555;
+        font-size: 13.5px;
+        font-weight: 600;
+        transition: color 0.3s;
+    }
+    /* Tô màu xanh ngọc cho mục "All" đầu tiên giống hình mẫu */
+    .list-tab li:first-child a {
+        color: #5bc0be;
+    }
+    .list-tab li a:hover {
+        color: #5bc0be;
+    }
+    
+    /* Định dạng lưới 3 cột gallery ảnh chuẩn mẫu */
+    .galerry {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .galerry li {
+        display: inline-block;
+        width: 31%;
+        margin: 1%;
+        vertical-align: top;
+        background-color: #88b04b; /* Màu xanh lá chuẩn mẫu */
+        border-radius: 4px;
+        height: 160px;
+        position: relative;
+    }
+    .galerry li a {
+        display: block;
+        height: 100%;
+        line-height: 160px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* Ẩn ảnh gốc bị lỗi link bên ngoài đi để thay bằng giao diện chuẩn */
+    .galerry li img {
+        display: none;
+    }
+    /* Hiển thị chữ "Học Web Chuẩn" trực tiếp lên khung */
+    .galerry li a::before {
+        content: "Học Web Chuẩn";
+    }
+</style>
+</head>
+<body>
+
+<section class="portfolio">
+    <h2>MY PORTFOLIO</h2>
+    
+    <ul class="list-tab">
+        <li><a href="./">All</a></li>
+        <li><a href="./">Web App</a></li>
+        <li><a href="./">UI/UX</a></li>
+        <li><a href="./">Graphics Design</a></li>
+        <li><a href="./">Mobile App</a></li>
+        <li><a href="./">Branding</a></li>
+        <li><a href="./">Marketing</a></li>
+    </ul>
+
+    <!-- Giữ nguyên cấu trúc HTML gốc thầy ra bài tập -->
+    <ul class="galerry">
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+        <li><a href="./"><img src="https://hocwebchuan.com/exercises/images/img_350x260.png" alt=""></a></li>
+    </ul>
+</section>
+
+</body>
+</html>

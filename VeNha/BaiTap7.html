@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài Tập 7 - Layout Khung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        /* Khung chứa lớn wrapper */
+        #wrapper {
+            width: 700px;
+            margin: 0 auto;
+            border: 2px solid #333;
+            padding: 10px;
+            background: #ffffff;
+        }
+
+        /* Định dạng header */
+        header {
+            border: 2px solid #333;
+            padding: 15px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Định dạng nav nằm bên trái (dùng float: left) */
+        nav {
+            width: 150px;
+            height: 300px;
+            border: 2px solid #333;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Định dạng main nằm bên phải */
+        main {
+            height: 300px;
+            border: 2px solid #333;
+            overflow: hidden; /* Tránh bị tràn khung */
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Định dạng footer nằm dưới cùng (clear: both để không bị đè float) */
+        footer {
+            clear: both;
+            border: 2px solid #333;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrapper">
+    wrapper
+    <header>header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+</div>
+
+</body>
+</html>
