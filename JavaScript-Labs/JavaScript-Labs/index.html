@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nguyễn Bảo Hân – JavaScript Labs</title>
+<meta name="description" content="Hồ sơ thực hành JavaScript (Lab 08, 09, 10) môn Phát triển ứng dụng TMĐT – Nguyễn Bảo Hân, MSSV 31241020124.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Điều hướng chính">
+  <div class="wrap">
+    <a class="brand" href="#top">Bảo Hân <i>JS Labs</i></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul id="menu">
+      <li><a href="#ho-so">Hồ sơ</a></li>
+      <li><a href="#labs">Ba bài Lab</a></li>
+      <li><a href="#kien-thuc">Kiến thức</a></li>
+      <li><a href="#thuong-mai">Ứng dụng TMĐT</a></li>
+      <li><a href="#tu-danh-gia">Tự đánh giá</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow reveal">Phát triển ứng dụng TMĐT, Chương 4: JavaScript</p>
+      <h1 class="reveal d2">Nguyễn Bảo Hân</h1>
+      <p class="lead reveal d2">Hồ sơ thực hành JavaScript: từ biến và hàm đến DOM, sự kiện và jQuery, gom lại thành những chức năng tương tác cho website thương mại điện tử.</p>
+      <div class="btns reveal d2">
+        <a class="btn primary" href="#labs">Xem ba bài Lab</a>
+        <a class="btn ghost" href="https://github.com/Lilemm94" target="_blank" rel="noopener">GitHub của mình</a>
+      </div>
+    </div>
+    <div class="portrait reveal d2">
+      <div class="arch">
+        <div class="mono" aria-hidden="true">BH</div>
+        <img src="images/avatar.jpg" alt="Ảnh đại diện của Nguyễn Bảo Hân" onerror="this.remove()">
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="info" id="ho-so">
+  <div class="wrap info-grid">
+    <div>
+      <h2>Thông tin sinh viên</h2>
+      <p>Trang này tổng hợp kết quả thực hành của mình ở ba bài Lab JavaScript. Mỗi bài có một trang danh sách Exercise riêng, bấm vào từng bài để xem kết quả chạy thật.</p>
+      <h3 style="margin-top:1.6em">Về bài thực hành</h3>
+      <p>Ba bài Lab giúp mình đi từ chỗ hiểu JavaScript là gì đến chỗ dùng nó để làm trang web phản hồi người dùng. Lab 08 đặt nền móng về ngôn ngữ, Lab 09 chuyển sang điều khiển trang bằng DOM và sự kiện, Lab 10 dùng jQuery để viết ngắn gọn hơn và lấy dữ liệu từ máy chủ. Trong phát triển ứng dụng web, HTML dựng khung và CSS tạo dáng, còn JavaScript giúp trang biết kiểm tra biểu mẫu, cập nhật giỏ hàng và đáp lại từng cú nhấp chuột của khách hàng.</p>
+    </div>
+    <div class="id-card">
+      <dl>
+        <div><dt>Họ và tên</dt><dd>Nguyễn Bảo Hân</dd></div>
+        <div><dt>Mã số sinh viên</dt><dd>31241020124</dd></div>
+        <div><dt>Lớp học phần</dt><dd>Phát triển ứng dụng TMĐT, bài cá nhân</dd></div>
+        <div><dt>GitHub cá nhân</dt><dd><a href="https://github.com/Lilemm94" target="_blank" rel="noopener">github.com/Lilemm94</a></dd></div>
+        <div><dt>Repository</dt><dd><a href="https://github.com/Lilemm94/ecommerce-ui-improvement" target="_blank" rel="noopener">ecommerce-ui-improvement</a></dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section id="labs">
+  <div class="wrap">
+    <p class="eyebrow">Danh sách bài thực hành</p>
+    <h2>Ba bài Lab, 29 Exercise</h2>
+    <div class="lab-list">
+      <article class="lab-row">
+        <div class="lab-no" aria-hidden="true">08</div>
+        <div>
+          <h3>Lab 08 – JavaScript 1: Language Foundations</h3>
+          <p>Cú pháp, biến, hàm, String, Date, Array, Object và cách đọc lỗi trên Console. 11 Exercise.</p>
+          <ul class="chips"><li>Biến và kiểu dữ liệu</li><li>Hàm</li><li>Array</li><li>Object</li><li>Console</li></ul>
+        </div>
+        <a class="btn primary" href="Lab08/">Vào Lab 08</a>
+      </article>
+      <article class="lab-row">
+        <div class="lab-no" aria-hidden="true">09</div>
+        <div>
+          <h3>Lab 09 – JavaScript 2: DOM and Events</h3>
+          <p>Chọn và thay đổi phần tử HTML, tạo và xóa phần tử, xử lý sự kiện, làm việc với form và kiểm tra dữ liệu. 8 Exercise.</p>
+          <ul class="chips"><li>DOM</li><li>Sự kiện</li><li>Form</li><li>Validation</li><li>Debug</li></ul>
+        </div>
+        <a class="btn primary" href="Lab09/">Vào Lab 09</a>
+      </article>
+      <article class="lab-row">
+        <div class="lab-no" aria-hidden="true">10</div>
+        <div>
+          <h3>Lab 10 – JavaScript 3: jQuery</h3>
+          <p>Bộ chọn, sự kiện, chèn phần tử, hiệu ứng và hoạt ảnh, GET request và xử lý kết quả bằng jqXHR. 10 Exercise.</p>
+          <ul class="chips"><li>Selectors</li><li>Animation</li><li>GET request</li><li>jqXHR</li></ul>
+        </div>
+        <a class="btn primary" href="Lab10/">Vào Lab 10</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="know" id="kien-thuc">
+  <div class="wrap">
+    <h2>Những điều mình đã học được</h2>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="t08" aria-selected="true" aria-controls="p08">Lab 08</button>
+      <button class="tab" role="tab" id="t09" aria-selected="false" aria-controls="p09">Lab 09</button>
+      <button class="tab" role="tab" id="t10" aria-selected="false" aria-controls="p10">Lab 10</button>
+    </div>
+    <div class="panel" id="p08" role="tabpanel" aria-labelledby="t08">
+      <ul>
+        <li>Biết đặt JavaScript vào trang bằng thẻ script, viết trực tiếp hoặc tách ra file ngoài, và dùng noscript để nhắc người đang tắt JavaScript.</li>
+        <li>Phân biệt biến cục bộ với biến toàn cục, và hiểu vì sao so sánh bằng === chặt chẽ hơn ==.</li>
+        <li>Làm quen các đối tượng có sẵn như String, Date, Math, cùng mảng và đối tượng tự tạo; lặp qua mảng đối tượng để in danh sách ra trang.</li>
+        <li>Viết hàm có tham số và giá trị trả về, hàm lồng nhau, hàm ẩn danh và truyền hàm làm callback.</li>
+        <li>Dùng Console với log, warn, error để tìm ra lỗi thay vì đoán.</li>
+      </ul>
+      <p class="ec"><b>Trong TMĐT:</b> hàm tính tổng tiền kèm thuế ở Exercise 8.9 và đối tượng đơn hàng ở Exercise 8.10 là nền cho giỏ hàng và đơn hàng.</p>
+    </div>
+    <div class="panel" id="p09" role="tabpanel" aria-labelledby="t09" hidden>
+      <ul>
+        <li>Chọn phần tử bằng id, tên thẻ, class hoặc bộ chọn CSS, rồi đọc và đổi nội dung, thuộc tính, kiểu hiển thị.</li>
+        <li>Đi dọc cây DOM qua node cha, con, anh em; tạo phần tử mới và xóa phần tử cũ.</li>
+        <li>Gắn sự kiện click, mouseover, mouseout bằng addEventListener; hiểu vì sao phải chờ sự kiện load trước khi truy cập DOM.</li>
+        <li>Xử lý form: đổi màu ô nhập khi focus hoặc blur, chặn gửi form bằng preventDefault khi còn ô trống và báo lỗi ngay trên trang.</li>
+        <li>Đặt breakpoint trong DevTools để xem đối tượng sự kiện khi gỡ lỗi.</li>
+      </ul>
+      <p class="ec"><b>Trong TMĐT:</b> kiểm tra biểu mẫu đăng ký, nút xem chi tiết hay ẩn/hiện mô tả sản phẩm đều dựa trên DOM và sự kiện.</p>
+    </div>
+    <div class="panel" id="p10" role="tabpanel" aria-labelledby="t10" hidden>
+      <ul>
+        <li>Nạp jQuery từ CDN kèm bản dự phòng trong thư mục, để trang vẫn chạy khi CDN không truy cập được.</li>
+        <li>Dùng selectors của jQuery để thao tác cả nhóm phần tử chỉ với một dòng, kể cả các bộ chọn nâng cao như :nth-child và :contains.</li>
+        <li>Gắn và gỡ sự kiện bằng on và off, bọc mã trong document ready, chèn phần tử bằng before, after, append, prepend.</li>
+        <li>Tạo hiệu ứng fade, slide và animate nhiều bước nối tiếp.</li>
+        <li>Gọi GET request lấy dữ liệu JSON, duyệt kết quả bằng $.each và bắt các trạng thái done, fail, always của jqXHR.</li>
+      </ul>
+      <p class="ec"><b>Trong TMĐT:</b> ảnh xem nhanh khi rê chuột (10.7), hiệu ứng cho sản phẩm và danh sách tải từ máy chủ (10.9) là những tính năng thường gặp trên trang bán hàng.</p>
+    </div>
+  </div>
+</section>
+
+<section id="thuong-mai">
+  <div class="wrap">
+    <h2>Áp dụng vào website thương mại điện tử</h2>
+    <div class="ec-grid">
+      <ul class="ec-list">
+        <li><b>Kiểm tra biểu mẫu đăng ký</b><span>Báo ô trống và chặn gửi form (Exercise 9.8), tô nổi các trường mật khẩu (10.3).</span></li>
+        <li><b>Giỏ hàng</b><span>Tính tổng tiền và thuế bằng hàm (8.9), mô hình đơn hàng bằng đối tượng (8.10).</span></li>
+        <li><b>Cập nhật nội dung sản phẩm</b><span>Tạo, chèn, xóa phần tử (9.3, 10.5) và đổ danh sách từ dữ liệu JSON (10.9).</span></li>
+        <li><b>Hiệu ứng tương tác</b><span>Ảnh phóng to theo con trỏ chuột, ẩn hiện mô tả bằng fade và slide (9.4, 10.6, 10.7).</span></li>
+      </ul>
+      <div class="cart" id="cart">
+        <h3>Thử ngay: giỏ hàng mini</h3>
+        <small>Bấm + hoặc − để tổng tiền tự cập nhật bằng JavaScript.</small>
+        <div class="cart-item" data-price="189000">
+          <div class="nm">Nến thơm hoa hồng<span class="pr">189.000đ</span></div>
+          <div class="qty"><button type="button" data-step="-1" aria-label="Giảm số lượng nến thơm">&minus;</button><output>1</output><button type="button" data-step="1" aria-label="Tăng số lượng nến thơm">+</button></div>
+          <div class="line-total"></div>
+        </div>
+        <div class="cart-item" data-price="129000">
+          <div class="nm">Hộp quà pastel<span class="pr">129.000đ</span></div>
+          <div class="qty"><button type="button" data-step="-1" aria-label="Giảm số lượng hộp quà">&minus;</button><output>2</output><button type="button" data-step="1" aria-label="Tăng số lượng hộp quà">+</button></div>
+          <div class="line-total"></div>
+        </div>
+        <div class="cart-item" data-price="39000">
+          <div class="nm">Thiệp viết tay<span class="pr">39.000đ</span></div>
+          <div class="qty"><button type="button" data-step="-1" aria-label="Giảm số lượng thiệp">&minus;</button><output>1</output><button type="button" data-step="1" aria-label="Tăng số lượng thiệp">+</button></div>
+          <div class="line-total"></div>
+        </div>
+        <div class="sum">
+          <div><span>Tạm tính</span><span id="subtotal"></span></div>
+          <div><span>Thuế (8%)</span><span id="tax"></span></div>
+          <div class="grand"><span>Tổng cộng</span><span id="grand"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="review" id="tu-danh-gia">
+  <div class="wrap">
+    <h2>Tự đánh giá sau khi hoàn thành</h2>
+    <blockquote class="quote" style="margin-left:0;margin-right:0">
+      <p>Sau ba bài Lab, mình hiểu rõ hơn cách JavaScript biến một trang HTML tĩnh thành trang biết phản hồi người dùng: từ biến, hàm, mảng, đối tượng đến thao tác DOM, bắt sự kiện và lấy dữ liệu bằng jQuery. Mình thấy Lab 09 hữu ích nhất vì mọi thao tác trên form và nút bấm đều xoay quanh DOM và sự kiện. Lab 10 khó nhất ở phần GET request và jqXHR vì phải xử lý bất đồng bộ và cả trường hợp lỗi. Những kiến thức này có thể dùng để kiểm tra form đăng ký, cập nhật số lượng trong giỏ hàng, lọc sản phẩm hay hiện ảnh xem nhanh khi rê chuột. Mình cần luyện thêm cách tổ chức mã cho gọn, gỡ lỗi bằng DevTools và hiểu sâu hơn về bất đồng bộ.</p>
+      <footer>Nguyễn Bảo Hân, MSSV 31241020124</footer>
+    </blockquote>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer"><p>&copy; 2026 Nguyễn Bảo Hân. Phát triển ứng dụng TMĐT, TS. Nguyễn Mạnh Tuấn.</p></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

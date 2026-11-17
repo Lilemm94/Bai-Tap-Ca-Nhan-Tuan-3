@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Athens",
+    "countrycode": "GR",
+    "latitude": 37.9838,
+    "longitude": 23.7275,
+    "population": 3090508
+  },
+  {
+    "id": 2,
+    "name": "Florence",
+    "countrycode": "IT",
+    "latitude": 43.7696,
+    "longitude": 11.2558,
+    "population": 382258
+  },
+  {
+    "id": 3,
+    "name": "Rome",
+    "countrycode": "IT",
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "population": 2872800
+  },
+  {
+    "id": 4,
+    "name": "Berlin",
+    "countrycode": "DE",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "population": 3644826
+  },
+  {
+    "id": 5,
+    "name": "Madrid",
+    "countrycode": "ES",
+    "latitude": 40.4168,
+    "longitude": -3.7038,
+    "population": 3223334
+  },
+  {
+    "id": 6,
+    "name": "London",
+    "countrycode": "GB",
+    "latitude": 51.5072,
+    "longitude": -0.1276,
+    "population": 8982000
+  },
+  {
+    "id": 7,
+    "name": "Budapest",
+    "countrycode": "HU",
+    "latitude": 47.4979,
+    "longitude": 19.0402,
+    "population": 1752286
+  },
+  {
+    "id": 8,
+    "name": "Toronto",
+    "countrycode": "CA",
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "population": 2731571
+  },
+  {
+    "id": 9,
+    "name": "Calgary",
+    "countrycode": "CA",
+    "latitude": 51.0447,
+    "longitude": -114.0719,
+    "population": 1239220
+  },
+  {
+    "id": 10,
+    "name": "New York",
+    "countrycode": "US",
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "population": 8336817
+  },
+  {
+    "id": 11,
+    "name": "Nassau",
+    "countrycode": "BS",
+    "latitude": 25.0478,
+    "longitude": -77.3554,
+    "population": 274400
+  },
+  {
+    "id": 12,
+    "name": "Accra",
+    "countrycode": "GH",
+    "latitude": 5.6037,
+    "longitude": -0.187,
+    "population": 2291352
+  },
+  {
+    "id": 13,
+    "name": "Hà Nội",
+    "countrycode": "VN",
+    "latitude": 21.0285,
+    "longitude": 105.8542,
+    "population": 8053663
+  },
+  {
+    "id": 14,
+    "name": "Hồ Chí Minh",
+    "countrycode": "VN",
+    "latitude": 10.8231,
+    "longitude": 106.6297,
+    "population": 9320866
+  }
+]
